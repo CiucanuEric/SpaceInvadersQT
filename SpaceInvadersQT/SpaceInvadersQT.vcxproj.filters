@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Widgets">
+      <UniqueIdentifier>{15ea8028-70e2-4fa9-b1bc-06e612762ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{83db083a-bc4b-48be-b8a9-5bd1c271c89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Mobs">
+      <UniqueIdentifier>{8d9d859e-23b1-4bd3-a036-775ed6d8a6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Projectile">
+      <UniqueIdentifier>{04772468-e4de-4956-a326-324e704597c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Player">
+      <UniqueIdentifier>{7b69a3ac-7630-47bb-bae7-ec53107cd6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{efec0df7-e92e-4d15-b42b-1dd8f8dbbc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets">
+      <UniqueIdentifier>{e1576bc3-1a39-4b1c-85b4-51571c83db48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Mobs">
+      <UniqueIdentifier>{20f1ee93-3883-4c35-a2ed-556a97a854c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Players">
+      <UniqueIdentifier>{bd541cc4-4345-49e5-8d2e-4fb92b6e0b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Projectile">
+      <UniqueIdentifier>{492c5e9a-ec27-41e0-9a29-21b94ef03aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{6393365c-16ef-49d6-bb12-343b22b0eb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\InfoWidget">
+      <UniqueIdentifier>{8154f188-9f24-48ba-a69d-bfd5ffa4aa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionChecker">
+      <UniqueIdentifier>{7d565a9a-2bd9-4edf-b732-0fe9613712e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CollisionChecker">
+      <UniqueIdentifier>{cdfede9d-09e5-4cd2-b006-826a20d78404}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien.cpp">
+      <Filter>Source Files\Entity\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entity\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoWidget.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceInvadersWidget.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="spaceinvaderswindow.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\Entity\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionChecker.cpp">
+      <Filter>Source Files\CollisionChecker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InfoWidget.h">
+      <Filter>Header Files\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien.h">
+      <Filter>Header Files\Entity\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Entity\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionChecker.h">
+      <Filter>Header Files\CollisionChecker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="spaceinvaderswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SpaceInvadersWidget.h">
+      <Filter>Header Files\Widgets</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\SpaceInvadersLogo.png">
+      <Filter>Resource Files\Images\InfoWidget</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
